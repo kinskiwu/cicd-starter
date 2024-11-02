@@ -34,4 +34,3 @@ func TestGetAPIKey_ValidHeader(t *testing.T) {
 		t.Errorf("expected API key 'abc123', got '%v'", apiKey)
 	}
 }
-
